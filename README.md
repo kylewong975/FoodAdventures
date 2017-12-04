@@ -35,3 +35,14 @@ Project started December 2, 2017
   - Robustness of application (if I want to add a new category or feature, it should be relatively easy)
 - Analysis page
   - D3 charts
+
+### General Tech Stack
+##### Frontend
+- HTML
+- CSS
+- JavaScript
+- React.js
+##### Backend
+- Django
+- MongoDB
+
