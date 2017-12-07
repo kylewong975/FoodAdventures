@@ -46,3 +46,5 @@ Project started December 2, 2017
 - Django
 - MongoDB
 
+### Restaurants
+[Los Angeles](https://docs.google.com/document/d/1gZes91JndS2bg-lH12M6RvfmoO2G7rEvsr2-X4xmpMA/edit?usp=sharing)
