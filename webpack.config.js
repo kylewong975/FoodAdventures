@@ -1,6 +1,6 @@
-let path = require('path');
-let webpack = require('webpack');
-let BundleTracker = require('webpack-bundle-tracker');
+var path = require('path');
+var webpack = require('webpack');
+var BundleTracker = require('webpack-bundle-tracker');
 
 module.exports = {
 	// base directory for resolving entry
@@ -39,7 +39,7 @@ module.exports = {
 		]
 	},
 	resolve: {
-		modulesDirectories: ['node_modules'], // look for modules at node_modules
-		extensions: ['', '.js', '.jsx'] // these are the extensions to be used to resolve modules
+		modules: ['node_modules'], // look for modules at node_modules
+		extensions: ['.js', '.jsx'] // these are the extensions to be used to resolve modules
 	},
 };
