@@ -9,6 +9,17 @@ let foo = function(bar) {
 console.log(foo(bar));
 ```
 
+### Instructions
+To play around with my repository, follow these steps to get started and install the necessary libraries and packages:
+- `git clone https://github.com/kylewong975/food_bar.git` to clone my git repo
+- `cd food_bar` to go to the root directory of the repo
+- `npm install` to install the npm packages 
+- `pip install -r requirements.txt` to properly install/configure the Django frameworks with the specified versions
+- `./node_modules/.bin/webpack --config webpack.config.js` to configure webpack
+- `python3 manage.py runserver` to start the server
+
+In your browser of choice, go to `http://127.0.0.1:8000/` which is the local server hosting the website, which should be indicated when you ran the runserver command above
+
 ### Motivation
 As a "foodie" I seek out new types of food (cultural, fusion, innovative) food. As a math-oriented person, I love numbers so I quantitatively describe my experience with the food at a particular restaurant by assigning ratings with my criteria. As a CS-oriented person, I would love to store these ratings in a database, parse data into a JSON object, and make a web application that showcases my restaurant reviews!
 
